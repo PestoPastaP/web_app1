@@ -25,7 +25,8 @@ def add_todo():
 
 st.title("My Todo App")
 st.subheader("This is my todo app.")
-st.write("This app is to increase your productivity.")
+st.write("This app is to increase your <b>productivity</b>.",
+        unsafe_allow_html=True)
 
 for index, todo in enumurate(todos):
     st.checkbox(todo, key=todo)
