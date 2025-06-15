@@ -1,4 +1,4 @@
-import streamlit as st 
+"""import streamlit as st"""
 """pip install streamlit"""
 """open Terminal, type % streamlit run web.py and press enter"""
 """in Terminal, type % pip freeze > requirements.txt, press enter to generate
